@@ -1,0 +1,9 @@
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.toolbar-item {
+  padding: 0 10px;
+}

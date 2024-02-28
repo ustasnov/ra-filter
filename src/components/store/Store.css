@@ -1,0 +1,17 @@
+.store {
+  padding: 20px 20px 20px;
+  width: 900px;
+  margin: auto;
+}
+
+.storeheader {
+  text-align: right;
+}
+
+.listcontainer.view_module {
+  display: none;
+}
+
+.cardscontainer.view_list {
+  display: none;
+}
