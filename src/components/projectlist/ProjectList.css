@@ -1,5 +1,12 @@
 .projectlist {
+  height: 1500px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.project {
+  width: 250px;
+  padding: 10px 10px;
 }

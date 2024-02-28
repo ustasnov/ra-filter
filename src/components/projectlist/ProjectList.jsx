@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import "./ProjectList.css";
 
-function ProjectList({projects}) {
+function ProjectList({ projects }) {
 
   return (
     <div className="projectlist">
-      {projects.map((project) => 
-          <img key={project} className="project" src={project.img} alt="project"></img>  
-      )}  
+      {projects.map((project, i) =>
+        <img key={i} className="project" src={project.img} alt="project"></img>
+      )}
     </div>
   )
 }

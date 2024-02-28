@@ -56,10 +56,9 @@ function App() {
 
   return (
     <div className="container">
-        <Portfolio projects={projects} />
+      <Portfolio projects={projects} />
     </div>
   )
 }
 
 export default App
-

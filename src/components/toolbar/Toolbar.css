@@ -1,9 +1,21 @@
 .toolbar {
+  padding: 0 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
 .toolbar-item {
-  padding: 0 10px;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border-width: 1px;
+  color: rgb(76, 76, 76);
+  background-color: white;
+  border-color: gray;
+  cursor: pointer;
+}
+
+.toolbar-item.active {
+  color: white;
+  background-color: rgb(94, 94, 94);
 }

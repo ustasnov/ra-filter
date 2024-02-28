@@ -17,19 +17,19 @@ function Portfolio({ projects }) {
           return el.category == filter;
         });
       }
-      
+
       setDataView([filter, filteredList]);
     }
   }
 
   return (
     <div className='portfolio'>
-        <Toolbar 
-          filters={["All", "Websites", "Flayers", "Business Cards"]} 
-          selected={state[0]}
-          onSelectFilter={onSelectFilter}>
-        </Toolbar>
-        <ProjectList projects={state[1]}></ProjectList>
+      <Toolbar
+        filters={["All", "Websites", "Flayers", "Business Cards"]}
+        selected={state[0]}
+        onSelectFilter={onSelectFilter}>
+      </Toolbar>
+      <ProjectList projects={state[1]}></ProjectList>
     </div>
   );
 }
